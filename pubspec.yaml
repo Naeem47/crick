@@ -1,0 +1,135 @@
+name: tempalteflutter
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.6+6
+
+environment:
+  sdk: ">=2.19.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  modal_progress_hud_nsn: ^0.3.0
+  bloc: ^7.0.0
+  flutter_bloc: ^7.0.0
+  shared_preferences: ^2.0.17
+  font_awesome_flutter: ^10.3.0
+  country_code_picker: ^2.0.2
+  image_cropper: ^3.0.1
+  cached_network_image: ^3.2.3
+  url_launcher: ^6.1.8
+  intl: ^0.18.0
+  page_indicator: ^0.4.1
+  fluttertoast: ^8.1.2
+  bottom_navy_bar: ^6.0.0
+  persistent_bottom_nav_bar: ^5.0.2
+  sticky_headers: ^0.3.0+2
+  percent_indicator: ^4.2.2
+  flutter_circle_color_picker: ^0.3.0
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.7.3
+  google_sign_in: ^6.1.4
+  flutter_facebook_auth: ^5.0.11
+dependency_overrides:
+  modal_bottom_sheet:
+    git:
+      url: https://github.com/danReynolds/modal_bottom_sheet.git
+      path: modal_bottom_sheet
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - assets/appUpdate.png
+    - assets/updateButtonImage.png
+    - assets/cricketImage1.png
+    - assets/cricketImage2.png
+    - assets/cricketImage3.png
+    - assets/cricketGround.png
+    - assets/ruppeIcon.png
+    - assets/cup.png
+    - assets/playerImage.png
+    - assets/userAvatar.png
+    - assets/pts.png
+    - assets/greencup.png
+    - assets/users.png
+    - assets/arrowE.png
+    - assets/arrowG.png
+    - assets/arrowL.png
+    - assets/notificationRupee.png
+    - assets/notificationCup.png
+    - assets/19.png
+    - assets/25.png
+    - assets/23.png
+    - assets/21.png
+    - assets/13.png
+    - assets/17.png
+    - assets/tv.png
+    - assets/cname/123.png
+    - assets/cname/119.png
+    - assets/g1.png
+    - assets/wallet.png
+    - assets/lineups.png
+    - assets/prize.png
+    - assets/guaranteed.png
+    - assets/cname/
+    - assets/baseballPlayer.jpg
+    - assets/cricketPlayer.jpg
+    - assets/footballPlayer.jpg
+    - assets/playerProfilePic.jpg
+    - assets/kabadiplayer.jpg
+    - assets/stump.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Bold.ttf
+        - asset: fonts/Poppins-Regular.ttf
+        - asset: fonts/Poppins-RegularItalic.ttf
+        - asset: fonts/Poppins-Light.ttf
+        - asset: fonts/Poppins-LightItalic.ttf
+        - asset: fonts/Poppins-Thin.ttf
+        - asset: fonts/Poppins-ThinItalic.ttf
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
